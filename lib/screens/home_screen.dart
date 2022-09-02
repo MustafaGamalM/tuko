@@ -11,7 +11,7 @@ class HomeScreen extends StatelessWidget {
     return GestureDetector(
       onTap: fun,
       child: Container(
-        padding: EdgeInsets.only(left: 10),
+        padding:const EdgeInsets.only(left: 10),
         alignment: Alignment.centerLeft,
         height: 50,
         width: double.infinity,
